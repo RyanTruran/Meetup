@@ -1,72 +1,93 @@
-body{
-  margin:auto;
-  background-color:#8AB0AB;
+body {
+  margin: auto;
+  background-color: #8AB0AB;
 }
 
 .profile-img {
   text-align: center;
-  }
-#name{
+}
+
+#name {
   font-family: sans-serif;
   text-align: center;
 }
-.about-me{
+
+.about-me {
   text-align: justify;
 }
-.profile-img img{
-  border:2px solid black;
-  border-radius:10px;
+
+.profile-img img {
+  border: 2px solid black;
+  border-radius: 10px;
   box-shadow: rgb(0, 0, 0) 0px 0px 20px;
-  width:300px;
+  width: 300px;
 }
-.nav-bar{
-  background-color:#011627;
+
+.nav-bar {
+  background-color: #011627;
   color: white;
-  height:auto;
-  width: 100%;
-  display:inline-flex;
-  justify-content:flex-end;
-  align-items:center;
-}
-.list{
+  height: auto;
   width: 100%;
   display: inline-flex;
-  align-items:flex-start;
+  justify-content: flex-end;
+  align-items: center;
 }
-.secondary-list{
-padding:20px;
+
+.list {
+  width: 100%;
+  display: inline-flex;
+  align-items: flex-start;
 }
-.nav-bar-item{
-  height:auto;
-  padding:20px;
+.github{
+  padding:10px;
+  margin:0px;
+  width:40px;
 }
-a :hover{
-  background-color:#3E505B;
+.linkedin{
+  padding:10px;
+  height:35px;
 }
+.secondary-list {
+  padding: 20px;
+}
+
+.nav-bar-item {
+  height: auto;
+  padding: 20px;
+}
+
+a :hover {
+  background-color: #3E505B;
+}
+
 .nav-bar {
   list-style: none;
   /*padding: 20px;*/
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
-a .nav-bar-item{
-  color:white;
+
+a .nav-bar-item {
+  color: white;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
-.examples a{
-  color:black;
+.examples a {
+  color: black;
   text-decoration: underline;
   font-weight: bold;
 }
-.container{
-  padding:20px;
-}
-h2,h3{
-  margin:0px;
+
+.container {
+  padding: 20px;
 }
 
-h2,h1,h3,p,li{
+h2, h3 {
+  margin: 0px;
+}
+
+h2, h1, h3, p, li {
   font-family: sans-serif;
 }
