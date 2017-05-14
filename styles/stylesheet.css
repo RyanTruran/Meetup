@@ -66,3 +66,7 @@ a{
 h2,h3{
   margin:0px;
 }
+
+h2,h1,h3,p{
+  font-family: sans-serif;
+}
