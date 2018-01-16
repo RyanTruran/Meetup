@@ -8,7 +8,6 @@ var session    = require('express-session');
 var flash = require('express-flash');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
 
@@ -27,7 +26,6 @@ app.use(session({ secret: 'terceSytlaSAsIsihTTAC0CATThisIsASaltySecret',resave: 
 app.use(flash());
 
 app.use('/', index);
-app.use('/users', users);
 
 
 app.use(function(req, res, next){
