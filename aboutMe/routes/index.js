@@ -35,7 +35,7 @@ function mail(req) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '- Home' });
+  res.redirect('/about');
 });
 
 router.get('/about', function(req, res, next) {
