@@ -1,0 +1,51 @@
+<link rel='stylesheet' href='/stylesheets/about.css'/>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.css' />
+<div class="platform col-md-8 col-md-offset-2">
+  <div class="wrapped-objects">
+    <div class="contact">
+      <form id="contact-form" method="post" action="contact" role="form">
+        <div class="messages"></div>
+          <div class="controls">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_name">Name</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Conversations are easier with a name." data-error="Hi, I'm Ryan, What's your name?">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_email">Email *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Where can I reach you at?" required="required" data-error="Valid email is required." style="width:100%">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_message">Message *</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="What can I do for you? " rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <input type="submit" class="btn btn-success btn-send" value="Send message">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <p class="text-muted"><strong>*</strong> Required Field</p>
+                  </div>
+              </div>
+          </div>
+      </form>
+    </div>
+    <div class="responsive-iframe-container calendar visibile-desktop">
+      <iframe src="https://calendar.google.com/calendar/embed?title=My%20Availability&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6i0bp1fjgqul6s074ioe6ceufs%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</div>
