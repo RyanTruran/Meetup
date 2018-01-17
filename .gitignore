@@ -58,3 +58,4 @@ typings/
 .env
 
 # Email Object
+email-info.js
