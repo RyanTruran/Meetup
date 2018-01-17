@@ -25,10 +25,15 @@ embed{
 .calendar{
 height:800px;
 }
-
+.landscape-message{
+  display:none;
+}
 @media (max-width: 768px) {
     .calendar {
         display:none;
+    }
+    .landscape-message{
+      display:block;
     }
 }
 
