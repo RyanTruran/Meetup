@@ -28,7 +28,7 @@ height:800px;
 .landscape-message{
   display:none;
 }
-@media (max-width: 768px) {
+@media (max-width: 667px) {
     .calendar {
         display:none;
     }
