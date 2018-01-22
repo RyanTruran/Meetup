@@ -52,7 +52,13 @@ router.get('/resume', function(req, res, next) {
 
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: '- Contact', active: { contact: true }});
+});
+router.get('/projects/mock-apr',function(req, res, next){
+  res.render('mock-apr',{ title: '- Projects', active: { projects: true }, interaction:false });
+});
 
+router.post('/projects/mock-apr',function(req, res, next){
+  res.render('mock-apr',{ title: '- Projects', active: { projects: true }, interaction:true });
 });
 
 router.get('/resume/download', function(req, res, next) {

@@ -66,5 +66,6 @@ overflow:hidden;
   position:absolute;
 }
 a {
-  color: #00B7FF;
+  color: black;
+  text-decoration: underline;
 }
