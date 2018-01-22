@@ -69,3 +69,6 @@ a {
   color: black;
   text-decoration: underline;
 }
+.navbar a{
+  text-decoration: none;
+}
