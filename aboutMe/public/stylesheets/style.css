@@ -1,12 +1,16 @@
+html{
+  min-height: 100%;
+  background: #293f50;
+  background: -webkit-linear-gradient(#668CB3, #293f50);
+  background: -moz-linear-gradient(#668CB3, #293f50);
+  background: linear-gradient(#668CB3, #293f50);
+}
 body {
   padding-top:70px;
   padding-bottom:20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: justify;
-  background: #293f50;
-  background: -webkit-linear-gradient(#668CB3, #293f50);
-  background: -moz-linear-gradient(#668CB3, #293f50);
-  background: linear-gradient(#668CB3, #293f50);
+  background: none;
 }
 svg{
   fill:#777;
