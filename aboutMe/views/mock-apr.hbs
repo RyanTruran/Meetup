@@ -16,7 +16,7 @@
     <form method="post" >
       <div class="form-group row">
         <div class="col-md-2">
-          <label>Employee*</label>
+          <label for="ID">Employee*</label>
           <input type="text" class="form-control" name="ID" placeholder="ID Num" maxlength="6" required="required">
         </div>
         <div class="col-md-2">
@@ -66,8 +66,8 @@
           <p>303</p>
         </div>
         <div class="col-md-2">
-          <label>Last Code*</label>
-          <input type="text" maxlength="4" class="form-control" value="BESF" required="required">
+          <label for="lastCode">Last Code*</label>
+          <input name="lastCode" type="text" maxlength="4" class="form-control" value="BESF" required="required">
         </div>
       </div>
       <div class="row">
@@ -90,19 +90,19 @@
       </div>
       <div class="form-group row">
         <div class="col-md-12">
-          <label>Cause (if known)</label>
+          <label for="cause">Cause (if known)</label>
           <textarea name="cause" class="form-control" placeholder="What caused the malfunction of the vehicle?" rows="3">Vehicle was left in pause over the weekend.</textarea>
         </div>
       </div>
       <div class="form-group row">
         <div class="col-md-12">
-          <label>Recovery Steps Taken*</label>
+          <label for="recovery">Recovery Steps Taken*</label>
           <textarea name="recovery" class="form-control" required="required" placeholder="What actions were taken to return the vehicle to service?" rows="3">Vehicle was removed from the Rated area. Battery was leveled out with fully charged AGV. Vehicle returned to battery change room and the battery was replaced.</textarea>
         </div>
       </div>
       <div class="form-group row">
         <div class="col-md-12">
-          <label>Engineering Notes</label>
+          <label for="EngineeringNotes">Engineering Notes</label>
           <textarea name="EngineeringNotes" class="form-control" placeholder="Notes Provided by engineering in regards to this specific issue." rows="3">Vehicles Should not be placed in pause when not in use.  Pausing when not in use prevents the vehicle from returning for a battery change.</textarea>
         </div>
       </div>

@@ -70,4 +70,12 @@ router.post('/contact', function(req, res, next) {
   res.redirect('/contact');
 });
 
+router.get('/projects/devices',function(req, res, next){
+  res.render('devices',{ title: '- Projects', active: { projects: true }});
+});
+router.get('*', function(req, res, next) {
+  res.redirect('/about');
+});
+
+
 module.exports = router;
